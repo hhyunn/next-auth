@@ -11,16 +11,16 @@
       "page": "/",
       "matchers": [
         {
-          "regexp": "^/.*$",
-          "originalSource": "/:path*"
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static|_next\\/image|favicon.ico).*))(.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|_next/static|_next/image|favicon.ico).*)"
         }
       ],
       "wasm": [],
       "assets": [],
       "environments": {
-        "previewModeId": "ed149538d2c8b3b0b9f242676127f89c",
-        "previewModeSigningKey": "64fb3092ee2a9f17416ad5c89353b537f6421df53e2770326ae1c5801087fd72",
-        "previewModeEncryptionKey": "2d89df636cca1fad300ecbbd35350b627500be68ff0da852da5512acc8279b60"
+        "previewModeId": "36f4e14d173f45a34eac79f30da2cc57",
+        "previewModeSigningKey": "854ace00025d4db6353f0f43cf414830550b2b4d4e72d02ded8cee8c99c367b6",
+        "previewModeEncryptionKey": "009b51c3ded787f7e72b2d7abc0ded55f25dc62fc7ac74f82433a38eb28b0bda"
       }
     }
   },
